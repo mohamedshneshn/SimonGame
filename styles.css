@@ -1,47 +1,42 @@
-body{
-    text-align: center;
+body {
+  text-align: center;
 }
-.container{
-    margin: 40px auto;
+.container {
+  margin: 40px auto;
 }
-@media (max-width:800px){
-    .container{
-      width: 90%;
-    }
+@media (max-width: 800px) {
+  .container {
+    width: 90%;
+  }
+}
 
+@media (min-width: 801px) {
+  .container {
+    width: 50%;
+  }
 }
-
-@media (min-width:801px){
-    .container{
-        width: 50%;
-    }
+@media (max-width: 430px) {
+  .btn {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
 }
-@media (max-width:430px){
-    .btn{
-        width: 100px;
-        height: 100px;
-        margin: 10px;
-    
-    }
-}
-@media (min-width:431px){
-    .btn{
-        width: 150px;
+@media (min-width: 431px) {
+  .btn {
+    width: 150px;
     height: 150px;
     margin: 20px;
-    
-    }
+  }
 }
 
 h1 {
-    font-family: 'Rubik', sans-serif;
-    font-size: 3rem;
-    font-weight: bold;
-    
+  font-family: "Rubik", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
 }
-.row{
-    display: inline-block;
-    
+.row {
+  display: inline-block;
 }
 /* .btn{
     
@@ -49,55 +44,52 @@ h1 {
 } */
 
 .red {
-    background-color: #f25022;
-    box-shadow:  0 8px 0 0 #c93a12 ;
+  background-color: #f25022;
+  box-shadow: 0 8px 0 0 #c93a12;
 }
 .green {
-    background-color: #7fb800;
-    box-shadow:   0 8px 0 0 #5f8f00;
-   
+  background-color: #7fb800;
+  box-shadow: 0 8px 0 0 #5f8f00;
 }
 
 .blue {
-    background-color: #00a4ef;
-    box-shadow:  0 8px 0 0 #0084c9 ;
+  background-color: #00a4ef;
+  box-shadow: 0 8px 0 0 #0084c9;
 }
 .yellow {
-    background-color: #ffb900;
-    box-shadow:  0 8px 0 0 #d19a00;
+  background-color: #ffb900;
+  box-shadow: 0 8px 0 0 #d19a00;
 }
 
-button{
-    cursor: pointer;
-    padding: 10px 30px;
-    border-radius: 20%;
-    outline: none;
-    text-decoration: none;
-    border: 1px solid gainsboro;
-    font-size: 20px;
-    font-weight: bold;
+button {
+  cursor: pointer;
+  padding: 10px 30px;
+  border-radius: 20%;
+  outline: none;
+  text-decoration: none;
+  border: 1px solid gainsboro;
+  font-size: 20px;
+  font-weight: bold;
 }
 button:hover {
-    background-color: white;
-
+  background-color: white;
 }
 .btn:active {
-    box-shadow: 0 0 0 0;
-   
+  box-shadow: 0 0 0 0;
 }
-.hidden{
-    display: none;
+.hidden {
+  display: none;
 }
-span{
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-family: 'Rubik', sans-serif;
-    color:rgb(77, 55, 55);
-    padding: 5px 10px;
+span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Rubik", sans-serif;
+  color: rgb(77, 55, 55);
+  padding: 5px 10px;
 }
-.unclickable{
-    pointer-events: none;
+.unclickable {
+  pointer-events: none;
 }
-.success{
-    background-color:greenyellow;
+.success {
+  background-color: greenyellow;
 }
